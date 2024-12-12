@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: #4A7C59;
+    padding: 15px;
+    z-index: 2;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #F5F5DC;
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    text-decoration: underline;
+}
+
+.nav--logo{
+    display: inline;
+    margin: 0;
+    width: 50px;
+}
+
+.nav--enlace:hover{
+    background-color: rgb(44, 44, 44);
+    color: #F5F5DC;
+}
+
+.dropdown-menu{
+    background-color: #4a7c59fb;
+    color: black;
+    border: solid black 1px;
+    margin-left: 180px;
+}
+
+
+
+.imginicio{
+    width: 100px;
+    display: block;
+    margin: 10px auto;
+    border: solid 0.5px;
+    border-radius: 100%;
+}
+
+.bi-instagram{
+    color: rgb(181, 11, 130);
+    font-size: 2rem;
+}
+.bi-whatsapp{
+    color: rgb(11, 228, 11);
+    font-size: 2rem;
+}
+
+.whatsapp-fijo {
+    position: fixed;
+    bottom: 20px; /* Ajusta la distancia desde el borde inferior */
+    right: 20px; /* Ajusta la distancia desde el borde derecho */
+    width: 60px; /* Tamaño del ícono */
+    height: 60px;
+    background-color: #23f06170; /* Color verde de WhatsApp */
+    border-radius: 50%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+.whatsapp-fijo img {
+    width: 50%; /* Ajusta el tamaño del ícono dentro del botón */
+}
+
+.whatsapp-fijo:hover {
+    background-color: #128C7E; /* Color más oscuro al pasar el mouse */
+}
+
+
+footer {
+    background-color: #4A7C59; /* Color de fondo del footer */
+    color: #FFFFFF; /* Color de texto blanco */
+    padding: 10px 0;
+    text-align: center;
+    font-size: 0.8em;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.footer-contacto, .footer-mensaje, .footer-redes {
+    flex: 1;
+    text-align: center;
+}
+
+/* Estilos específicos de cada sección */
+.footer-contacto {
+    text-align: left;
+}
+
+.footer-mensaje {
+    text-align: center;
+    font-size: 0.9em;
+}
+
+.footer-redes {
+    text-align: right;
+}
+
+.footer-redes a {
+    margin-left: 10px;
+}
+
+.footer-redes img {
+    width: 24px;
+    height: 24px;
+    transition: transform 0.3s;
+}
+
+.footer-redes a:hover img {
+    transform: scale(1.1); /* Efecto de agrandamiento al pasar el mouse */
+}
