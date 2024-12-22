@@ -399,13 +399,13 @@ footer {
 }
 
 .hero img {
-  width: 1000px; /* Asegurar que la imagen no exceda el ancho del contenedor */
+  width: 800px; /* Asegurar que la imagen no exceda el ancho del contenedor */
   height: 500px; /* Mantener la proporción de la imagen */
   display: block;
 }
 
 .contentparrafo {
-  max-width: 800px;
+  max-width: 1000px;
   margin: 20px auto;
   padding: 10px 20px;
   text-align: justify;
