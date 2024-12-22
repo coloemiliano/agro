@@ -1,6 +1,42 @@
-@import "general";
-@import "paginicio";
-@import "galeria";
+@use "general";
+@use "paginicio";
+@use "galeria";
+
+
+.hero {
+    display: flex; /* Activar el uso de Flexbox */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+   
+}
+
+.hero img {
+    width: 1000px; /* Asegurar que la imagen no exceda el ancho del contenedor */
+    height: 500px; /* Mantener la proporción de la imagen */
+    display: block;
+}
+
+.contentparrafo {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 10px 20px;
+    text-align: justify;
+    background-color: #ffffff67;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contentparrafo p {
+    font-size: 1.1rem;
+    margin: 20px 0;
+    text-align: center; /* Centramos solo el texto dentro del párrafo */
+    font-family: Georgia, 'Times New Roman', serif; /* Fuente más formal */
+}
+
+.contentparrafo h5{
+    color: #2c9c28;
+    text-decoration: underline;
+}
 
 .about-section {
     padding: 60px 40px;
